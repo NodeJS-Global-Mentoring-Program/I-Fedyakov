@@ -1,0 +1,14 @@
+{
+  "name": "fs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "task1": "nodemon/bin/nodemon.js task1.js",
+    "task2": "nodemon/bin/nodemon.js task2.js",
+    "task3": "nodemon/bin/nodemon.js task3.js"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
