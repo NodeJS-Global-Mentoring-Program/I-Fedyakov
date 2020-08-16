@@ -1,5 +1,5 @@
 {
-  "name": "fs",
+  "name": "work-with-fs",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -9,6 +9,7 @@
     "task3": "nodemon/bin/nodemon.js task3.js"
   },
   "dependencies": {
+    "csvtojson": "^2.0.10",
     "nodemon": "^2.0.4"
   }
 }
