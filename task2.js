@@ -1,5 +1,5 @@
-const csv = require('csvtojson');
-const fs = require('fs');
+import fs from 'fs';
+import csv from 'csvtojson';
 
 const sourceFilePath = './csv/books.csv';
 const readable = fs.createReadStream(sourceFilePath, {
