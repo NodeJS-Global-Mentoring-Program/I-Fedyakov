@@ -7,9 +7,11 @@
     "task1": "nodemon --exec babel-node task1/app.js"
   },
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "babel-preset-stage-2": "^6.24.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-joi-validation": "^4.0.4-beta.0",
     "nodemon": "^2.0.4",
     "uuid": "^8.3.0"
   },
