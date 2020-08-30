@@ -1,1 +1,27 @@
-GET http://localhost:3000/user
+GET http://localhost:3000/user/eef7cda9-e4ed-4f24-99ab-2845b1b670ed
+
+###
+GET http://localhost:3000/user-auto-suggested?loginSubstring=like&limit=7
+
+###
+POST http://localhost:3000/user/create
+Content-Type: application/json
+
+{
+    "login": "login1",
+    "password": "password2",
+    "age": "13"
+}
+
+###
+POST http://localhost:3000/user/8add1564-98be-4c1b-8523-8bf5722e79e8/update
+Content-Type: application/json
+
+{
+    "login": "I'm not like you",
+    "password": "dsfdsfsd",
+    "age": "32"
+}
+
+###
+DELETE http://localhost:3000/user/efed3652-9962-405f-8123-cad6331091bd/delete
